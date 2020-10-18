@@ -1,4 +1,4 @@
-#!/bin/bas
+#!/bin/bash
 echo "part 1"
 grep "blockID=\"g[[:digit:]]\+\"\|blockID=\"i[[:digit:]]\+\"" blocklist.xml
 echo "part 2"
