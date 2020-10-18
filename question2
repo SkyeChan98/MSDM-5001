@@ -1,0 +1,10 @@
+#!/bin/bash
+n=1
+while [ "$n" -le 50 ]
+do
+	mkdir "DDM$n"
+	cd "DDM$n"
+	echo "`date +%s%N`" > time_till_now.txt
+	cd ..
+	n=$(($n+1))
+done
